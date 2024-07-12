@@ -1,0 +1,19 @@
+---
+---
+
+body {
+    .stripes:nth-class(1) {
+      background: repeating-conic-gradient
+        (from 45deg at 15% 15%,
+        #62364e 0 10deg,
+        #d05453 10deg 20deg,
+        #ffad66 20deg 30deg,
+        #ff8251 30deg 40deg,
+        #f35558 40deg 50deg);}
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "jekyll-theme-minimal";
